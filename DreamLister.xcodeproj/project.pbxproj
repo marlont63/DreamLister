@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		052708551DB384AF00FE3AF7 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052708541DB384AF00FE3AF7 /* ItemCell.swift */; };
+		052708571DB397E500FE3AF7 /* rolls-royce-ghost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 052708561DB397E500FE3AF7 /* rolls-royce-ghost.jpg */; };
+		0527085B1DB39E1E00FE3AF7 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0527085A1DB39E1E00FE3AF7 /* ItemDetailsVC.swift */; };
 		05FF75E71DB2960C00F179CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF75E61DB2960C00F179CB /* AppDelegate.swift */; };
-		05FF75E91DB2960C00F179CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF75E81DB2960C00F179CB /* ViewController.swift */; };
+		05FF75E91DB2960C00F179CB /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF75E81DB2960C00F179CB /* MainVC.swift */; };
 		05FF75EC1DB2960C00F179CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FF75EA1DB2960C00F179CB /* Main.storyboard */; };
 		05FF75EF1DB2960C00F179CB /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05FF75ED1DB2960C00F179CB /* DreamLister.xcdatamodeld */; };
 		05FF75F11DB2960C00F179CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FF75F01DB2960C00F179CB /* Assets.xcassets */; };
 		05FF75F41DB2960C00F179CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FF75F21DB2960C00F179CB /* LaunchScreen.storyboard */; };
+		05FF76031DB29C0900F179CB /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF75FB1DB29C0900F179CB /* ItemType+CoreDataClass.swift */; };
+		05FF76041DB29C0900F179CB /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF75FC1DB29C0900F179CB /* ItemType+CoreDataProperties.swift */; };
+		05FF76051DB29C0900F179CB /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF75FD1DB29C0900F179CB /* Item+CoreDataClass.swift */; };
+		05FF76061DB29C0900F179CB /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF75FE1DB29C0900F179CB /* Item+CoreDataProperties.swift */; };
+		05FF76071DB29C0900F179CB /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF75FF1DB29C0900F179CB /* Store+CoreDataClass.swift */; };
+		05FF76081DB29C0900F179CB /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF76001DB29C0900F179CB /* Store+CoreDataProperties.swift */; };
+		05FF76091DB29C0900F179CB /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF76011DB29C0900F179CB /* Image+CoreDataClass.swift */; };
+		05FF760A1DB29C0900F179CB /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF76021DB29C0900F179CB /* Image+CoreDataProperties.swift */; };
+		05FF760F1DB2A7AF00F179CB /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF760E1DB2A7AF00F179CB /* MaterialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		052708541DB384AF00FE3AF7 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		052708561DB397E500FE3AF7 /* rolls-royce-ghost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rolls-royce-ghost.jpg"; sourceTree = "<group>"; };
+		0527085A1DB39E1E00FE3AF7 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
 		05FF75E31DB2960C00F179CB /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FF75E61DB2960C00F179CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05FF75E81DB2960C00F179CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05FF75E81DB2960C00F179CB /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		05FF75EB1DB2960C00F179CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05FF75EE1DB2960C00F179CB /* DreamLister.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamLister.xcdatamodel; sourceTree = "<group>"; };
 		05FF75F01DB2960C00F179CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05FF75F31DB2960C00F179CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05FF75F51DB2960C00F179CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05FF75FB1DB29C0900F179CB /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		05FF75FC1DB29C0900F179CB /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		05FF75FD1DB29C0900F179CB /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		05FF75FE1DB29C0900F179CB /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		05FF75FF1DB29C0900F179CB /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		05FF76001DB29C0900F179CB /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		05FF76011DB29C0900F179CB /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		05FF76021DB29C0900F179CB /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		05FF760E1DB2A7AF00F179CB /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		052708581DB39DDF00FE3AF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05FF75E81DB2960C00F179CB /* MainVC.swift */,
+				0527085A1DB39E1E00FE3AF7 /* ItemDetailsVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		05FF75DA1DB2960C00F179CB = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +89,50 @@
 		05FF75E51DB2960C00F179CB /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				05FF760D1DB2A79500F179CB /* View */,
+				05FF760B1DB29CFA00F179CB /* Model */,
 				05FF75E61DB2960C00F179CB /* AppDelegate.swift */,
-				05FF75E81DB2960C00F179CB /* ViewController.swift */,
+				052708581DB39DDF00FE3AF7 /* Controller */,
 				05FF75EA1DB2960C00F179CB /* Main.storyboard */,
 				05FF75F01DB2960C00F179CB /* Assets.xcassets */,
 				05FF75F21DB2960C00F179CB /* LaunchScreen.storyboard */,
 				05FF75F51DB2960C00F179CB /* Info.plist */,
 				05FF75ED1DB2960C00F179CB /* DreamLister.xcdatamodeld */,
+				052708561DB397E500FE3AF7 /* rolls-royce-ghost.jpg */,
 			);
 			path = DreamLister;
+			sourceTree = "<group>";
+		};
+		05FF760B1DB29CFA00F179CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05FF75FB1DB29C0900F179CB /* ItemType+CoreDataClass.swift */,
+				05FF75FD1DB29C0900F179CB /* Item+CoreDataClass.swift */,
+				05FF75FF1DB29C0900F179CB /* Store+CoreDataClass.swift */,
+				05FF76011DB29C0900F179CB /* Image+CoreDataClass.swift */,
+				05FF760C1DB29D1E00F179CB /* Generated */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05FF760C1DB29D1E00F179CB /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				05FF75FC1DB29C0900F179CB /* ItemType+CoreDataProperties.swift */,
+				05FF75FE1DB29C0900F179CB /* Item+CoreDataProperties.swift */,
+				05FF76001DB29C0900F179CB /* Store+CoreDataProperties.swift */,
+				05FF76021DB29C0900F179CB /* Image+CoreDataProperties.swift */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		05FF760D1DB2A79500F179CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05FF760E1DB2A7AF00F179CB /* MaterialView.swift */,
+				052708541DB384AF00FE3AF7 /* ItemCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05FF75F41DB2960C00F179CB /* LaunchScreen.storyboard in Resources */,
+				052708571DB397E500FE3AF7 /* rolls-royce-ghost.jpg in Resources */,
 				05FF75F11DB2960C00F179CB /* Assets.xcassets in Resources */,
 				05FF75EC1DB2960C00F179CB /* Main.storyboard in Resources */,
 			);
@@ -140,9 +209,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05FF75E91DB2960C00F179CB /* ViewController.swift in Sources */,
+				052708551DB384AF00FE3AF7 /* ItemCell.swift in Sources */,
+				05FF76061DB29C0900F179CB /* Item+CoreDataProperties.swift in Sources */,
+				05FF76051DB29C0900F179CB /* Item+CoreDataClass.swift in Sources */,
+				05FF76031DB29C0900F179CB /* ItemType+CoreDataClass.swift in Sources */,
+				05FF760F1DB2A7AF00F179CB /* MaterialView.swift in Sources */,
+				05FF76041DB29C0900F179CB /* ItemType+CoreDataProperties.swift in Sources */,
+				05FF76081DB29C0900F179CB /* Store+CoreDataProperties.swift in Sources */,
+				05FF75E91DB2960C00F179CB /* MainVC.swift in Sources */,
+				0527085B1DB39E1E00FE3AF7 /* ItemDetailsVC.swift in Sources */,
+				05FF76071DB29C0900F179CB /* Store+CoreDataClass.swift in Sources */,
 				05FF75E71DB2960C00F179CB /* AppDelegate.swift in Sources */,
 				05FF75EF1DB2960C00F179CB /* DreamLister.xcdatamodeld in Sources */,
+				05FF76091DB29C0900F179CB /* Image+CoreDataClass.swift in Sources */,
+				05FF760A1DB29C0900F179CB /* Image+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +386,7 @@
 				05FF75FA1DB2960C00F179CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
